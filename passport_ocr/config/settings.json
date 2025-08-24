@@ -1,0 +1,21 @@
+{
+  "model_parameters": {
+    "detection_threshold": 0.5,
+    "recognition_threshold": 0.7
+  },
+  "image_processing": {
+    "resize": {
+      "width": 800,
+      "height": 600
+    },
+    "thresholding": {
+      "method": "adaptive",
+      "block_size": 11,
+      "C": 2
+    }
+  },
+  "ocr_settings": {
+    "language": "eng",
+    "config": "--psm 6"
+  }
+}
